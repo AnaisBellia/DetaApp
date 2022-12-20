@@ -16,4 +16,11 @@ src="https://www.googletagmanager.com/gtag/js?id=UA-250432838-1"></script>
  gtag('config', ' UA-250432838-1');
 </script>
  """
-    return prefix_google + "Hello World from ANAIS BELLIA"
+    return prefix_google + "Hello World lab2 from ANAIS BELLIA"
+
+@app.route('/Logger',methods=['GET'])
+def logger():
+    page="""
+    <script>console.log('aaa')</script>"""
+    return "hfgvhjbggh" + page
+
