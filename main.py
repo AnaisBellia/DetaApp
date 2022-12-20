@@ -24,3 +24,8 @@ def logger():
     <script>console.log('aaa')</script>"""
     return "hfgvhjbggh" + page
 
+
+
+if __name__=='__main__':
+    app.run(debug=True)
+
